@@ -1,0 +1,34 @@
+body{
+    background-color: darksalmon;
+}
+h1{
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+}
+h2{
+    background-color: darkslategray;
+    color: gainsboro;
+    text-align: center;
+}
+table {
+    color:black;
+    text-align: center;
+    width: 70%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  td,
+  th {
+    padding: 15px;
+    border: 1px solid #a5b4fc;
+  }
+  
+  td {
+    padding: 80px;
+  }
+  .head{
+    background-color: aliceblue;
+    color: darkblue;
+  }

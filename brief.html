@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<HTml>
+    <head>
+        <meta charset="utf-8">
+        <title> Build Your Own Cheat Sheet</title>
+        <link rel="stylesheet" href="brief.css">
+    </head>
+    <body>
+       <h1>Sélecteurs CSS et spécificité
+    </h1>
+    <h2>Les différents types de sélecteurs</h2> 
+
+<table>
+    <tr class="head">
+        <th>Nom du sélecteur</th>
+        <th>Ce qu'il sélectionne</th>
+        <th>Exemple</th>
+    </tr>
+    <tr>
+        <td>Sélecteur d'élément (parfois appelé « sélecteur de balise » ou « sélecteur de type »)</td>
+        <td>Tous les éléments HTML d'un type donné.</td>
+        <td>p sélectionne tous les <p></td>
+    </tr>
+    <tr>
+        <td>Sélecteur d'ID</td>
+        <td>L'élément d'une page qui possède l'ID fourni (pour une page HTML donné, on ne peut avoir qu'un seul élément pour un ID donné).</td>
+        <td>#my-id sélectionne p id="my-id" ou a id="my-id" </td>
+    </tr>
+    <tr>
+        <td>Sélecteur de classe</td>
+        <td>Les éléments d'une page qui sont de la classe donnée (pour une page donnée, il est possible d'avoir plusieurs éléments qui partagent une même classe).</td>
+        <td>.my-class sélectionne p class="my-class" et a class="my-class!" </td>
+    </tr>
+    <tr>
+        <td>Sélecteur d'attribut</td>
+        <td>Les éléments de la page qui possèdent l'attribut donné.</td>
+        <td>img[src] sélectionne img src="monimage.png" mais pas </td>
+    </tr>
+    <tr>
+        <td>Sélecteur de pseudo-classe</td>
+        <td>Les éléments donnés mais uniquement dans un certain état (par exemple quand on passe la souris dessus).</td>
+        <td>a:hover sélectionne <a> mais uniquement quand le pointeur de la souris est au-dessus du lien.</td>
+    </tr>
+</table>
+</body>
+</HTml>
